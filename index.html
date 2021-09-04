@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto2-Formulario1</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        section{
+            text-align: center;
+        }
+        form{
+          
+            width: 100%;
+            max-width: 400px;
+            margin: 0  auto;
+            padding: 15px ;
+        }
+        button{
+            background: green;
+            border: 0;
+            width: 80px;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        form input{
+            padding: 15px 25px;
+            outline: none;
+        }
+        button:hover{
+            background: rgb(83, 112, 53);
+            cursor: pointer;
+        }
+        header{
+            background: cornflowerblue;
+            border-radius: 20px;
+            color: cornsilk;
+        }
+        input::placeholder{
+            color: rgb(138, 135, 132);
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulario1</h1>
+    </header>
+    <main>
+        <section>
+            <h2>CREATE YOUR ACCOUNT </h2>
+            <p style="letter-spacing: 1px;">This is slep 1</p>
+           
+            <form action="">
+                
+                <input  type="email" placeholder="Email"  maxlength="30" pattern="[a-zA-Z0-9]+" required>
+                <br><br>
+                <input type="password" placeholder="Password" required>
+                <br><br>
+                <input type="password" placeholder="Confirm Password" required>
+                <br><br>
+             <button>Next</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
